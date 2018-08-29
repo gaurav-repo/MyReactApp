@@ -1,0 +1,36 @@
+{
+  "name": "myreactapp",
+  "version": "1.0.0",
+  "description": "MyReactApplication",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav-repo/MyReactApp.git"
+  },
+  "keywords": [
+    "MyReactApp"
+  ],
+  "author": "Gaurav Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurav-repo/MyReactApp/issues"
+  },
+  "homepage": "https://github.com/gaurav-repo/MyReactApp#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.23.0",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
